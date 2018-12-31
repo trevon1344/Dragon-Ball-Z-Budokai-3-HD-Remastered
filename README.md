@@ -3,4 +3,12 @@ Since I have no idea when I'll be finished with this project, I decided to try s
 
 You can keep up-to-date by checking the "DBZB3HDR Bin List.rtf" file.
 
-How to update files tutorial: [Link will be here later]
+What you need:
+  - AFS Explorer - In GitHub
+  - ImgBurn - In GitHub
+  - Dragon Ball Z Budokai 3 (Greatest Hits) (USA) - https://mega.nz/#!1UJByQzK!MDPTrpXMrpHzfocPImK4yZSqiv0l1H8Cm7B7XNC-Eow
+  
+How to update files tutorial video: [Link will be here later]
+
+How to update files tutorial in text:
+  1. 
