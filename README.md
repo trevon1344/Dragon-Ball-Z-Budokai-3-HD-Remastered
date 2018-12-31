@@ -3,4 +3,4 @@ Since I have no idea when I'll be finished with this project, I decided to try s
 
 You can keep up-to-date by checking the "DBZB3HDR Bin List.rtf" file.
 
-How to update files tutorial: 
+How to update files tutorial: [Link will be here later]
