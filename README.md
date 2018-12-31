@@ -15,7 +15,7 @@ How to update files tutorial in text:
   2. Extract Zip folder
   3. Extract files located in the ISO into it's own folder
   4. Launch "AFS Explorer" and open DATA_CMN.afs
-  5. Import the "DATA_CMN" folder and rebuild AFS file.
-  6. Replace old "DATA_CMN.afs" with the new modified verion.
-  7. Repeat steps 4-6 for "DATA_USA.afs" file and "DATA_USA" folder
+  5. Import the "DATA_CMN" folder and rebuild AFS file if needed.
+  6. Repeat steps 4-5 for "DATA_USA.afs" file and "DATA_USA" folder
+  7. Replace old "files" with the new modified verion.
   8. Create New ISO using ImgBurn
