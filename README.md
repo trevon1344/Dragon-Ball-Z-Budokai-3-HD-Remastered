@@ -8,7 +8,7 @@ What you need:
   - ImgBurn - In GitHub
   - Dragon Ball Z Budokai 3 (Greatest Hits) (USA) - https://mega.nz/#!1UJByQzK!MDPTrpXMrpHzfocPImK4yZSqiv0l1H8Cm7B7XNC-Eow
   
-How to update files tutorial video: [Link will be here later]
+How to update files tutorial video: https://youtu.be/cWTkRL5SuaE
 
 How to update files tutorial in text:
   1. Download all of the files inside the github folder.
