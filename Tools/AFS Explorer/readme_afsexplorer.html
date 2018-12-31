@@ -1,0 +1,740 @@
+<html>
+<head>
+<title>AFS Explorer v3.70 --- Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="48%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td width="459"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="470" height="190">
+        <param name=movie value="DTENG.SWF">
+        <param name=quality value=high>
+        <embed src="DTENG.SWF" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="470" height="190">
+        </embed> 
+      </object></td>
+  </tr>
+  <tr> 
+    <td width="459"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><a href="http://www.issextreme.net/forums">http://dte-ng.issextreme.net<br>
+        http://www.issextreme.net/forums </a></font> </div>
+    </td>
+  
+</table>
+<br>
+<hr size="1" noshade>
+<div align="center"><b><font face="Arial, Helvetica, sans-serif" size="6" color="#FF0000">AFS 
+  EXPLORER v3.70</font></b></div>
+<hr size="1">
+<p><font size="5" face="Arial, Helvetica, sans-serif">1. <a href="#DESCRIPTION">DESCRIPTION</a><br>
+  2. <a href="#CHANGES">CHANGES</a><br>
+  3. <a href="#IMPORTANT_NOTES">IMPORTANT NOTES</a><br>
+  4. <a href="#MENU_DESCRIPTION">MENU DESCRIPTION</a><br>
+  5. <a href="#ACKNOWLEDGEMENTS">ACKNOWLEDGEMENTS</a></font><br>
+</p>
+<hr>
+<br>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td> 
+    <table width="192" border="1" cellspacing="0" cellpadding="0">
+    <tr> 
+       <td width="100%"><font size="5"><b><font size="5"><b><font color="#0099FF">DESCRIPTION</font></b></font><a name="DESCRIPTION"></a></b></font> 
+       </td>
+    </tr>
+    </table>
+  </td></tr>
+  <tr><td> 
+    <table width="100%" border="1" cellspacing="0" cellpadding="0" >
+    <tr>
+          <td height="100" valign="top"> 
+            <p align="left"><font face="Arial, Helvetica, sans-serif"><font size="2">This 
+              software allows managing the <b>AFS</b> files, which act as a container 
+              for multiple files (e.g. graphics, sounds, etc...) under its specific 
+              file-system structure.<br>
+              With AFSExplorer you can manage those files, replacing or editing 
+              them with AFSExplorer's built-in functions or via independent external 
+              plug-ins.<br>
+              </font><font face="Arial, Helvetica, sans-serif" size="2">There 
+              are plug-ins available for e.g. editing STR, SPF or ADX files. Plug-ins 
+              code is also available so anyone can customize them or even create 
+              their own plug-ins.<br>
+              </font></font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif"><font size="2">Appart 
+              from these basic functions for handling AFS files, the application</font></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+              includes some non-AFS related extensions:<br>
+              <br>
+              - ZLIB-compressed files analysis and handling tool. You can (un)compress 
+              and (de)crypt files in the AFS.<br>
+              <br>
+              - Renderware graphics support (as those found e.g in Grand Thieft 
+              Auto or Winning Eleven/Pro Evolution Soccer series). You can insert/extract 
+              graphics into any supported file in the AFS.<br>
+              <br>
+              - SPF, ADX, CES and WAV sound player. You can play any sound file 
+              in the AFS.<br>
+              <br>
+              </font><font face="Arial, Helvetica, sans-serif" size="2">This application 
+              also allows the creation and usage of AFP patches, which contain 
+              file content targeted to be applied on AFS file and replace its 
+              files.<br>
+              These patches have a lesser dependence of AFS structure than PPF 
+              patches, having an optimal space usage, and thus are better suited 
+              to be used on AFS files.<br>
+              </font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">You 
+              have at your disposal many other functions such as file name edition, 
+              support to ISO CD/DVD images, etc...</font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">This 
+              application is designed to work under Win32 platforms, and has been 
+              tested to work under all avalaible 32-bit Windows OSs.</font></p>
+    </td></tr>
+    </table>
+  </td></tr>
+</table>
+
+<br>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="168">
+  <tr>
+    <td> 
+      <table width="158" border="1" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="100%"><font size="5"><b><font size="5"><b><font color="#0099FF">CHANGES<a name="CHANGES"></a></font></b></font></b></font></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td> 
+      <table width="100%" border="1" cellspacing="0" cellpadding="0" >
+        <tr> 
+          <td height="164"> 
+            <table border=1 cellspacing=0 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:0cm;border:outset black .75pt;mso-padding-alt:0cm 0cm 0cm 0cm'
+ height=30 bordercolor="#000000">
+              <tr style='height:6.75pt'> 
+                <td width="10%" rowspan=3 style='width:16.0%;border:inset black .75pt;
+  padding:0cm 0cm 0cm 0cm;height:6.75pt'> 
+                  <p class=MsoNormal align=center style='text-align:center'><b><i><span
+  lang=EN-US style='font-size:10.0pt;font-family:Arial;color:#339900;
+  mso-ansi-language:EN-US'>From<br>
+                    version 3.6<br>
+                    to<br>
+                    version 3.7</span></i><span lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></b></p>
+                </td>
+                <td style='border:inset black .75pt;padding:0cm 0cm 0cm 0cm;height:6.75pt' width="90%" height="27"> 
+                  <p class=MsoNormal style='mso-line-height-alt:6.75pt'><span lang=EN-US
+  style='font-size:10.0pt;font-family:Arial;mso-ansi-language:EN-US'>- Added support 
+                    to </span><b><span lang=EN-US
+  style='font-size:10.0pt;font-family:Arial;mso-ansi-language:EN-US'>Winning Eleven 
+                    9 &amp; Pro Evolution Soccer 5 (PSX2, PC and XBOX) graphic 
+                    files</span><span lang=EN-US style='font-size:10.0pt;font-family:Arial;
+  mso-ansi-language:EN-US'>.</span></b></p>
+                </td>
+              </tr>
+              <tr style='height:6.75pt'> 
+                <td style='border:inset black .75pt;padding:0cm 0cm 0cm 0cm;height:6.75pt' width="90%" height="27"><span lang=EN-US
+  style='font-size:10.0pt;font-family:Arial;mso-ansi-language:EN-US'>- </span><span lang=EN-US
+  style='font-size:10.0pt;font-family:Arial;mso-ansi-language:EN-US'>Added support 
+                  to CD images (2048 sector size only).</span></td>
+              </tr>
+              <tr style='height:6.75pt'> 
+                <td style='border:inset black .75pt;padding:0cm 0cm 0cm 0cm;height:6.75pt' height="168"><span lang=EN-US
+  style='font-size:10.0pt;font-family:Arial;mso-ansi-language:EN-US'>- Some minor 
+                  enhancements. </span><b><span lang=EN-US
+  style='font-size:10.0pt;font-family:Arial;mso-ansi-language:EN-US'></span></b></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="2020">
+  <tr>
+    <td height="18"> 
+      <table width="256" border="1" cellspacing="0" cellpadding="0" height="39">
+        <tr> 
+          <td width="100%"><font size="5"><b><font size="5"><b><font color="#0099FF">IMPORTANT 
+            NOTES<a name="IMPORTANT_NOTES"></a></font></b></font><font face="Arial, Helvetica, sans-serif"></font></b></font></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"> 
+      <table width="100%" border="1" cellspacing="0" cellpadding="0" height="1997" >
+        <tr>
+          <td valign="top"> 
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2"><span lang=EN-US
+     style='mso-ansi-language:EN-US'><b><font size="3"><u>TIPS</u> <o:p></o:p><o:p></o:p></font><o:p></o:p></b><o:p></o:p></span></font><font face="Arial, Helvetica, sans-serif" size="2"><span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p></o:p></span></font><br>
+              <br>
+              <font size="2" face="Arial, Helvetica, sans-serif"><b>* </b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>In the </span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>main window:<br>
+              - Reserved spaces displayed in green </span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>means the reserved space 
+              has been marked with a new value for rebuilding.<br>
+              </span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>- File lengths displayed 
+              in green </span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>means file is using more 
+              reserved space than it really needs (unused space).</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'><br>
+              </span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'> - File lengths displayed 
+              in yellow</span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'> means that the length 
+              of the file given at the headers is not coherent with the length 
+              given at descriptors..<br>
+              </span><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>- Dragging a file from other app to the file list </span></b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>imports it.</span><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p><br>
+              <b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'></span></b></o:p></span><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'></span></b><span
+     lang=EN-US style='mso-ansi-language:EN-US'><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>(Just as in Windows Explorer:)<br>
+              </span></span></font><font size="2" face="Arial, Helvetica, sans-serif"><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>- Press right mouse button over a file or folder to open a contextual 
+              menu</span></b> <span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>with appropiate options</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'>. <br>
+              </span><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>- Double-clicking a file </span></b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>opens the file with the appropriate program or plays a sound, depending 
+              on the file type.</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'> Pressing F11 allows selecting any application 
+              for opening a file.<br>
+              </span><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>- Slowly double-clicking over a file name</span></b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'> allows editing its name.</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'><br>
+              </span><br>
+              </o:p></span><b>*</b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'> In the </span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>graphic preview window:<br>
+              - Press left mouse button while you move the mouse</span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'> to scroll the picture. 
+              If 'Stretch images' config option is set, this feature is not available 
+              (there's no need).</span><span
+     lang=EN-US style='mso-ansi-language:EN-US'><br>
+              </span><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>- Pressing right mouse button over an image </span></b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>opens a pop-up menu allowing to import/export BMP files.</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p><br>
+              </o:p></span><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>- Double click over any entry in the list </span></b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>to open the image with pre-selected graphic editor.</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p><br>
+              </o:p><o:p> </o:p></span></font></p>
+            <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p>*</o:p></span><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'> In the </span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>AFS rebuilding window:<br>
+              - Press '+' and '-' keypad buttons </span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>to increase/decrease reserved 
+              space for a file.</span><span lang=EN-US style='mso-ansi-language:EN-US'><o:p><br>
+              </o:p></span><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'>- Press right mouse button over a file or folder to open a contextual 
+              menu</span></b> <span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>with appropiate options</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'>. 'Adjust childs' sets the slots of the selected 
+              entry and his brothers (and also their sons) to the minimum value 
+              needed to store the files (minimizes space).<br>
+              </span><b><span lang=EN-US style='font-family:Arial;mso-ansi-language:
+     EN-US'></span></b><span lang=EN-US style='mso-ansi-language:EN-US'><o:p> 
+              </o:p></span></font></p>
+            <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>*</o:p></span><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'> In the </span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>AFP patch creation window:<br>
+              - Pressing right mouse button </span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>toggles the selection/deselection 
+              of all children, in function of parent selection status.</span><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p><br>
+              </o:p></span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>- Use 'Compare AFS'-&gt;'Select 
+              different files' to quickly create a patch.</span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'> This allows creating a 
+              patch that only holds those files that differ between the loaded 
+              AFS and any external AFS.</span><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p> Take care, as the content 
+              of the patch will be fetch from the currently loaded AFS file.<br>
+              </o:p><o:p><br>
+              </o:p></span><b>* </b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>In the </span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>ZLIB Manager window:<br>
+              - Double-clicking a ZLIB section </span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>uncompresses the section 
+              and then processes it with ZLIB Manager.</span><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p><br>
+              </o:p></span><b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>- Double-clicking a data 
+              section </span></b><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>opens it with the pre-configured 
+              hexadecimal editor.</span><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p><br>
+              - You can use 'Get from AFS' and 'Insert into AFS' to quickly exchange 
+              files within the AFS without the need of extracting them first.</o:p><o:p></o:p></span></font></p>
+            <p align="left"><br>
+              <font face="Arial, Helvetica, sans-serif" size="2"><b><font size="3"><u>FILE 
+              INSERTION AND REGENERATION OF AFS FILES</u><br>
+              </font></b></font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2"><b><font size="3">Important: 
+              When you first load an original AFS file, load it using &quot;auto-detection&quot; 
+              mode. If you are asked to do so (e.g. descriptors are missing), 
+              let AFSExplorer auto-regenerate the AFS file. Use that rebuilt AFS 
+              file afterwards.<br>
+              <br>
+              </font></b></font><font face="Arial, Helvetica, sans-serif" size="2">Due 
+              to the nature of AFS files, where files are stored sequentally and 
+              in 2048-bytes-long blocks, there are some limitations when working 
+              with them:<br>
+              Files have a reserved space within AFS files -called from hereafter 
+              &quot;slots&quot;- and its content is stored in sucessive blocks.<br>
+              Replacing a file with new one whose length is greater than the allocated 
+              slot would imply overwriting content of next file in the AFS.<br>
+              </font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">AFSExplorer 
+              allows over-passing this limitation using two approaches:<br>
+              </font><font face="Arial, Helvetica, sans-serif" size="2">- modifying 
+              assigned slots for all files, so bigger files can be inserted or 
+              to save space wasted by any file. This process, called &quot;regeneration&quot; 
+              or &quot;rebuilding&quot; creates a new AFS file keeping files content 
+              of original AFS file.<br>
+              - if there is enough free sectors in other files in the AFS, AFSExplorer 
+              offers the option of re-arranging the AFS structure so this unused 
+              space can be given to the inserted file. This could be seens as 
+              a partial regeneration of the file, with the advantage of working 
+              on the same file and thus not needing to create a new AFS file.<br>
+              </font><font face="Arial, Helvetica, sans-serif" size="2"></font><font face="Arial, Helvetica, sans-serif" size="2"><br>
+              When importing folders (and patches), AFSExplorer will calculate 
+              changes needed in the AFS structure and ask for regenerating it 
+              if it can be optimized or if rebuilding is required to allocate 
+              more space for those files.<br>
+              </font></p>
+            <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>Regeneration of AFS files 
+              is a resource-consuming operation, so it can take long, specially 
+              when dealing with big AFS files in low-performance computers. Avoid 
+              working with AFS files from CD/DVD units as their access times are 
+              far greater than those of hard disk units.</span><span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p></o:p></span><span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p></o:p></span></font><br>
+              <br>
+              <font size="2" face="Arial, Helvetica, sans-serif"><b><font size="3"><br>
+              <u>AFS VARIANTS</u><br>
+              </font></b></font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">There 
+              are basically two AFS types, whose difference mainly resides in 
+              the later (v2) missing of a proper information about file lengths 
+              in a zone called 'descriptors'.<br>
+              AFSExplorer uses descriptors as the base where to get file info 
+              from, as this allows more flexibility and also meets the goal of 
+              keeping compatibility.<br>
+              Some games/apps using AFSs do not tolerate small values in the other 
+              place where file length is told (in the 'headers'); so it's better 
+              using descriptors (which do not have the former restriction) to 
+              compute the real length of files, as this allows inserting small 
+              files <br>
+              <br>
+              Best thing you can do when working the first time with an AFS file 
+              is loading it using the 'auto-detection' mode (have a look at the 
+              configurations options of AFSExplorer). The tool will do its best 
+              to load the file in the safest way, and prompt you with the actions 
+              you should take to correct it if any incoherency is found.<br>
+              Updating an AFS file (write AFS structure info back to the AFS file) 
+              and regenerating it (write a new AFS file from the scratch) will 
+              be the most common operations you'll have to deal with.<br>
+              <br>
+              Please note, some other AFS handling software do not handle descriptors 
+              in a correct way or they simply ignore it. Usage of 'manual' loading 
+              mode with 'ignore descriptor's length' option enabled will allow 
+              you to correctly load those files, which must be corrected afterwards 
+              by updating or rebuilding it.<br>
+              Once corrected, this AFS file can (and should) be loaded with 'auto' 
+              mode again.<br>
+              <br>
+              In the case of AFS files missing descriptors (they simply do not 
+              have them in the file), AFSExplorer will use the default names 'unnamed_XXX', 
+              guessing the file extension depending on the files first 4 bytes 
+              (file identifier).<br>
+              If you set 'Advanced extension detection' not only the file identifier 
+              will be checked but also the content of the file, but at the cost 
+              of a slower AFS loading.<br>
+              You should always rebuild files missing descriptors.<br>
+              <br>
+              It can happen that an AFS file contains files that are also of the 
+              AFS format. By default, AFSExplorer will process those sub-AFS files 
+              and proccess their content. Use 'Custom detection' and deselect 
+              'Sub-AFS processing' to avoid processing sub-AFS files content when 
+              loading.<br>
+              </font></p>
+            <p align="left"><br>
+              <span style='mso-bookmark:ADDENDUM_1'><b><u><span style='font-size:13.5pt;
+font-family:Verdana'><font size="3" face="Arial, Helvetica, sans-serif">TEMPORAL 
+              STORAGE</font></span></u></b></span><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-GB style='mso-ansi-language:
+EN-GB'><o:p></o:p></span></font></p>
+            <p><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-GB style='font-family:Arial;mso-ansi-language:EN-GB'>AFSExplorer 
+              makes use of temporal files for a wide variety of operations, such 
+              as graphic displaying, sound previewing or patch importing.</span><span lang=EN-GB
+style='mso-ansi-language:EN-GB'><o:p></o:p></span></font></p>
+            <p><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-GB style='font-family:Arial;mso-ansi-language:EN-GB'>Those 
+              temporal files are created on default Window's temporal folder, 
+              which varies depending on the operating system.<br>
+              To correctly operate, AFSExplorer needs the hard-disc partition 
+              where that temp folder is located to have enough free space.</span><span lang=EN-GB
+style='mso-ansi-language:EN-GB'><o:p></o:p></span></font></p>
+            <p><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-GB style='font-family:Arial;mso-ansi-language:EN-GB'>This 
+              feature must be specially considered when importing a patch: as 
+              patch files are temporally extracted, it's very important you check 
+              there's at least enough free space at the operating system partition 
+              (or the place set as system's temporal storagement location) equal 
+              or greater than the patch size.<br>
+              That's it: if a patch is 200MB long, at least 200MB of free space 
+              is needed so AFSExplorer can apply the patch.</span><span lang=EN-GB style='mso-ansi-language:
+EN-GB'><o:p></o:p><br>
+              </span></font></p>
+            <p><font size="2" face="Arial, Helvetica, sans-serif"><span lang=EN-GB style='mso-ansi-language:
+EN-GB'><br>
+              </span></font><font face="Arial, Helvetica, sans-serif" size="2"><b><font size="3"><u>AFP 
+              PATCHES<span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p><o:p></o:p></span></u></font><u><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></u></b><u><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></u><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p><br>
+              </o:p></span><font color="#000000"><br>
+              <span lang=EN-US
+     style='font-family:Arial;mso-ansi-language:EN-US'>If you want to use AFP 
+              patches together with another PPF patches, apply</span> first PPF 
+              patches then apply AFP patches.<br>
+              Don't forget that a<i> new AFS file is created when you apply a 
+              patch that modifies the reserved spaces of the patched AFS file, 
+              and the AFS file length changes</i>.<span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p></o:p><o:p></o:p></span></font><span lang=EN-US
+     style='mso-ansi-language:EN-US'><o:p><br>
+              </o:p><o:p></o:p><o:p></o:p><br>
+              Avoid including in AFP patches both a sub-AFS file and any of the 
+              files it contains. It's a waste of space.<br>
+              <b><br>
+              AFP patches relies on AFS file names. You should provide AFL files 
+              containing the names of the files of the AFS file(s) you used to 
+              create the AFP patch file(s) from.<br>
+              <br>
+              <br>
+              </b></span></font><font size="2" face="Arial, Helvetica, sans-serif"><b><font size="3"><u>PLUG-INS</u></font></b></font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">Plug-ins 
+              communicate with AFSExplorer using sockets (network resources) for 
+              optimal performance. Be sure you don't have any external software 
+              (such as firewalls or antivirus) blocking AFSExplorer attempts of 
+              using the network.<br>
+              <b> </b> </font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">If 
+              you want to design a plug-in:<br>
+              - <i>download &quot;PluginSupport&quot; C++ class</i>; this class 
+              includes not only all function calls to set-up and perform all communication 
+              (requests to and notifications from) notifiwith AFSExplorer but 
+              also other useful functions to create a plug-in (e.g. interface 
+              wrappers).<br>
+              - have a look at the source of &quot;PluginSupport&quot; class as 
+              you'll find some basic info there. Also check the source of other 
+              available plug-ins to learn how most basic functions are used (you 
+              can use any of them as a base for a faster developing of your own 
+              plug-in too).<br>
+              However, you can always ask at the forums in case of any doubt/trouble.<br>
+              - <i>avoid making a large number of plug-in support calls within 
+              a short lapse of time</i>. TCP sockets are still alive for a given 
+              time (usually 2 minutes in Windows OSs) when they have been closed, 
+              thus system socket resources can starvate due to those 'ghost', 
+              previously-used sockets. In such an scenario, with hundreds of TCP 
+              sockets in TIME-WAIT state, AFSExplorer won't be able to communicate 
+              with plug-ins until those sockets have been really freed by the 
+              system.<br>
+              Special functions have been designed to fetch large ammounts of 
+              data (e.g. all info about an AFS file) using a single request.<br>
+              - requests to AFSExplorer requiring internal interface handling 
+              will make both the calling plug-in and AFSExplorer enter in a dead-lock 
+              state. Use separated threads when making those calls. Those dangerous 
+              calls are commented in the PluginSupport class; <i>as a rule of 
+              thumb, if you find AFSExplorer hangs when making a call, use a thread</i> 
+              because you'll probably be in this scenario ;)</font></p>
+            <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">If 
+              you design a plug-in please share it with the community! ;)<br>
+              <br>
+              </font><font size="2" face="Arial, Helvetica, sans-serif"><span
+     lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></font></p>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="1561">
+  <tr>
+    <td> 
+      <table width="273" border="1" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="100%"><font size="5"><b><font color="#0099FF">MENU DESCRIPTION<a name="MENU_DESCRIPTION"></a></font></b></font> 
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"> 
+      <table width="100%" border="1" cellspacing="0" cellpadding="0" height="1491" >
+        <tr>
+          <td valign="top"> 
+            <ol>
+              <li> <font face="Arial, Helvetica, sans-serif"><b><font size="2">File</font></b><font size="2"><br>
+                <br>
+                </font></font> 
+                <ol>
+                  <li><font face="Arial, Helvetica, sans-serif" size="2"> <b>Open 
+                    File...</b><br>
+                    <i>Imports an AFS file.<br>
+                    <br>
+                    </i></font></li>
+                  <li><font face="Arial, Helvetica, sans-serif" size="2"> <b>Update...</b><br>
+                    <i>Updates AFS structural data (headers and descriptors).<br>
+                    </i>Useful for fixing AFS v2 to behave as AFS v1 files.<br>
+                    <br>
+                    </font><font face="Arial, Helvetica, sans-serif" size="2"></font></li>
+                  <li><font face="Arial, Helvetica, sans-serif" size="2"> <b>Import 
+                    AFS file from CD image...</b><br>
+                    <i>Opens a CD/DVD image file and allows you to load any AFS 
+                    file it contains.<br>
+                    </i>Note: only 2048-byte sector images are supported.<br>
+                    </font><font face="Arial, Helvetica, sans-serif" size="2"><i><br>
+                    </i></font></li>
+                  <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Insert 
+                    AFS file into CD image...</b><br>
+                    <i>Inserts currently loaded AFS file into any CD/DVD image 
+                    file.<br>
+                    </i>IF THE FILE YOU ARE TRYING TO INSERT IS BIGGER THAN THE 
+                    ONE YOU ARE TRYING TO REPLACE... YOU CAN REBUILD THE CD/DVD 
+                    IMAGE! (experimental).<br>
+                    <br>
+                    </font></li>
+                  <li><font face="Arial, Helvetica, sans-serif" size="2"> <b>Configuration...</b><br>
+                    <i>Options to configure the application.<br>
+                    </i><br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Recent 
+                    files</b><br>
+                    <i>Here hangs a list of latest 10 files loaded in AFSExplorer</i>.<br>
+                    </font><font face="Arial, Helvetica, sans-serif" size="2"><br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Exit</b><br>
+                    <i>Uhmm... what's this for? ;)</i></font><font size="2" face="Arial, Helvetica, sans-serif"><i><br>
+                    </i> <br>
+                    <br>
+                    </font></li>
+                </ol>
+              </li>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Action</b><br>
+                <i>The options of this menu provide a way of modifying the files 
+                contained in the AFS file.</i><br>
+                <b><br>
+                </b></font> 
+                <ol>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Import 
+                    file...</b><br>
+                    <i>Replaces the file selected (in &quot;files&quot; list).</i><br>
+                    The imported file can't be greater than the currently selected 
+                    file. In case the file is greater file won't be imported, 
+                    but you'll be asked if you want to pre-adjust its reserved 
+                    space, very useful to easier the regeneration of AFS files.<br>
+                    <br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b> Export 
+                    file...</b><br>
+                    <i>Saves the file selected (in &quot;files&quot; list).</i><br>
+                    <br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Import 
+                    folder...</b><br>
+                    <i>Replaces the files of the seleted directory (in &quot;folders&quot; 
+                    tree) and its subdirectories.</i><br>
+                    The files you import, and the subdirectories, must have the 
+                    same name than the original ones.<br>
+                    You'll only be notified when trying to import a file that 
+                    is bigger than the original reserved space, or<br>
+                    when you could save AFS space on case the file is smaller 
+                    enough.<br>
+                    It's NOT necessary to import all files, it will only import 
+                    those matching the previous two requeriments.<br>
+                    <br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Export 
+                    folder...</b><br>
+                    <i>Saves the files of the seleted directory (in &quot;folders&quot; 
+                    tree) and its subdirectories.<br>
+                    </i><br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Search...</b><br>
+                    <i>Opens a dialog box that allows to search for next file 
+                    whose name contains the introduced string.<br>
+                    </i>Only single words can be searched. There's no need to 
+                    use character * as wildcard: a search for &quot;<i>general</i>&quot; 
+                    is equivalent to &quot;<i>*general*</i>&quot;.<i><br>
+                    </i><br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Find 
+                    next</b><br>
+                    <i>Same than 'Search...', but looking for the last set search 
+                    string.<br>
+                    <br>
+                    </i></font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Open 
+                    with...</b><br>
+                    <i>Opens the currently selected file with the choosen tool. 
+                    You can set those tools at the configuration window.<br>
+                    </i><br>
+                    </font></li>
+                </ol>
+              </li>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Advanced</b><br>
+                <i>Rooms some options that allow modifying the AFS structure.</i><br>
+                <br>
+                </font> 
+                <ol>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Modify 
+                    reserved space...</b><br>
+                    <i>Opens a window that allows changing the reserved slot for 
+                    each file.</i><br>
+                    <br>
+                    </font></li>
+                  <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Import 
+                    file name list...</b><br>
+                    <i>Updates name of files from a file list file.</i><br>
+                    Don't forget to use &quot;Update&quot; function to physicaly 
+                    update AFS file.<br>
+                    <br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Create 
+                    file name list...</b><br>
+                    <i>Creates a file that contains all the file names in an AFS 
+                    file.</i> <br>
+                    Note the exported file will only be applicable on AFS files 
+                    having the same directory structure as the AFS the file was 
+                    created from.<br>
+                    <br>
+                    </font></li>
+                  <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Import 
+                    patch...</b><br>
+                    <i>Loads an AFS patch.</i><br>
+                    Don't forget that a NEW AFS file is created when you apply 
+                    a patch and it modifies the reserved spaces of the patched 
+                    AFS file.<br>
+                    <br>
+                    </font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Create 
+                    patch...</b><br>
+                    <i>Opens a window that allows selecting which files you want 
+                    to include in the patch, and creates it.</i> <br>
+                    If you select a file being an AFS <u>you should not select 
+                    any of it sub-files</u>, as those sub-files are already contained 
+                    by that AFS file.<br>
+                    </font><font size="2" face="Arial, Helvetica, sans-serif"><br>
+                    </font></li>
+                </ol>
+              </li>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Advanced</b><br>
+                <br>
+                </font> 
+                <ol>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Graphic 
+                    preview<br>
+                    </b><i>Toggles visibility of graphic preview window. If not 
+                    visible, software won't try to load file selected in the file 
+                    list, so it'll be faster.<br>
+                    <br>
+                    </i></font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>Sound 
+                    player<br>
+                    </b><i>Toggles visibility of sound player window.</i><br>
+                    <i><br>
+                    </i></font></li>
+                  <li><font size="2" face="Arial, Helvetica, sans-serif"><b>ZLib 
+                    manager<br>
+                    </b><i>Toggles visibility of zlib manager window.</i><br>
+                    <br>
+                    </font></li>
+                </ol>
+              </li>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Help</b><br>
+                <i>Info about this software.<br>
+                </i><br>
+                </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"><b>Plug-ins<br>
+                </b><i>Allows showing/hidding plug-in windows</i></font></li>
+            </ol>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td> 
+      <table width="301" border="1" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="100%"><font size="5"><b><font color="#0099FF">ACKNOWLEDGEMENTS<a name="ACKNOWLEDGEMENTS"></a></font></b></font></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td> 
+      <table width="100%" border="1" cellspacing="0" cellpadding="0" height="96" >
+        <tr> 
+          <td height="100" valign="top"> 
+            <p><font face="Arial, Helvetica, sans-serif" size="2">This software 
+              uses code from zlib v1.2.1 Copyright (c) 1995-2004 Jean-loup Gailly 
+              and Mark Adler</font><font size="2"><br>
+              <font face="Arial, Helvetica, sans-serif">This software uses AdxToWav() 
+              code Copyright (c) 2001 BERO<br>
+              Encryption algorithm (de)coding by RCE, WarpXavier and KsChoice<br>
+              </font></font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="2">The author would 
+              like to thank the following people: <b>Alex</b>, <b>Antiz, Ataru-CrespoGol</b>, 
+              <b>Billy, Burgy</b>, <b>d4lton, El_Hacker, Eriol</b>, <b>Evilgab, 
+              </b><b>Goku, Honome</b>, <b>Iori, JeffT, KOC2000</b>, <b>K0H, KsChoice, 
+              Mauras</b>, <b>Mephisto</b>, <b>MikeOM</b>, <b>RCE, Reefur, Rh4psody, 
+              ShinjiOno, Solidus J2k, TCrew, Txema7, Unreal &amp; WarpXavier</b>. 
+              And also to all the other people I've forgotten to mention (sorry 
+              if I've done so!)</font></p>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<p><font face="Arial, Helvetica, sans-serif">------------ Tato</font></p>
+<br>
+<table width="100%" border="0" height="65">
+  <tr>
+    <td height="60" valign="middle" bgcolor="#CCCCCC"> 
+      <div align="center"><b><font face="Arial, Helvetica, sans-serif" color="#FF0000">IMPORTANT:<br>
+        *** This software is designed for personal use ***<br>
+        *** You must own an original copy of the game to use this tool ***<br>
+        *** Use of copies is only allowed to those who own the original ***</font></b></div>
+</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

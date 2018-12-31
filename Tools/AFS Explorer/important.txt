@@ -1,0 +1,15 @@
+This application is freeware. This means users can make use of it without cost and it can be freely distributed.
+
+However, some limitations are applied to its use and distribution grants:
+
+I. It is aimed for personal use;
+no economical profit can be made from the use of the application, may it be directly or indirectly.
+
+II. The application must be distributed/hosted keeping the integrity of the original package:
+	- No changes can be performed in any of the files forming the original package.
+	- All files forming the original package must be included.
+	- There is NO restriction to the addition of third party files.
+
+Please, note the usage of this application may be limited by local laws.
+The author(s) do not take any responsability of the incorrect usage of this application.
+Furthermore, no responsability is taken on any damage the application could cause to logical/phisycal parts.
